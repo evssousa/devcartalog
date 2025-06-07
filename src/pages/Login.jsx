@@ -1,3 +1,10 @@
+import Layout from "../componets/Layout";
+
 export default function Login() {
-    return <h2 className="text-2xl">Login</h2>
+    return (
+        <Layout>
+            <h2 className="text-2xl font-semibold mb-4">Login</h2>
+            <p>Área de autenticação (em breve).</p>
+        </Layout>
+    ) 
 }
