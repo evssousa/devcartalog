@@ -1,7 +1,18 @@
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import NewItem from './pages/NewItem'
+import EditItem from './pages/EditItem'
+import Login from './pages/Login'
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-800">
-      <h1 className="text-3xl font-bold text-center pt-10">DevCatalog</h1>
+    <div className="min-h-screen bg-gray-100 text-gray-900 p-4">
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/novo' element={<NewItem />} />
+        <Route path='/editar/:id' element={<EditItem />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
     </div>
   )
 }
