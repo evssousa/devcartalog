@@ -4,7 +4,7 @@
 
 ### 📌 Objetivo da Aplicação
 
-Criação de uma aplicação fullstack com Next.js que permita ao usuário:
+Criação de uma aplicação fullstack com **ReactJS (via Vite)** que permita ao usuário:
 
 * Cadastrar cursos e projetos que esteja estudando ou desenvolvendo
 * Visualizar todos os itens cadastrados
@@ -35,10 +35,10 @@ Criação de uma aplicação fullstack com Next.js que permita ao usuário:
 
 ### 🗂️ Páginas da aplicação (MVP)
 
+* `/` → Dashboard com listagem e filtros
+* `/novo` → Formulário para adicionar novo item
+* `/editar/:id` → Editar item existente
 * `/login` (opcional por enquanto)
-* `/` → dashboard com listagem e filtros
-* `/novo` → formulário para adicionar novo item
-* `/editar/:id` → editar item existente
 
 ---
 
@@ -46,9 +46,9 @@ Criação de uma aplicação fullstack com Next.js que permita ao usuário:
 
 | Parte    | Ferramenta              |
 | -------- | ----------------------- |
-| Frontend | Next.js (App Router)    |
+| Frontend | ReactJS (Vite)          |
 | Estilo   | TailwindCSS             |
-| Backend  | API Routes do Next.js   |
+| Backend  | Express.js (futuro)     |
 | Banco    | MongoDB (MongoDB Atlas) |
 | Auth     | Nenhuma (por enquanto)  |
 

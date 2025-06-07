@@ -1,1 +1,0 @@
-funções utilitárias, conexão com DB
