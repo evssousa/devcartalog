@@ -54,5 +54,5 @@ Criação de uma aplicação fullstack com **ReactJS (via Vite)** que permita ao
 
 ---
 
-### 📘 Wireframe da aplicação
+### 📘 Protótipo da aplicação
 ![wireframe.png](wireframe.png)
