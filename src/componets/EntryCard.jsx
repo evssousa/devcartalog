@@ -3,6 +3,7 @@ export default function EntryCard({ entry }) {
         <li className="bg-white p-4 rounded shadow">
             <h3 className="text-lg font-bold">{entry.titulo}</h3>
             <p className="text-sm text-gray-600">Tipo: {entry.tipo}</p>
+            <a className="text-sm text-blue-600" href={entry.link} target="_blank">{entry.link}</a>
             <p className="text-sm text-gray-600">Status: {entry.status}</p>
             <div className="flex gap-2 mt-2">
                 {entry.tags.map((tag) => (
